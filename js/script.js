@@ -1,41 +1,54 @@
 // Contains locations of various places on the map
 var markPlaces = [{
-        name: 'Cafe Amigos',
+        name: 'Hotel Marine Plaza',
         loc: {
-            lat: 19.2271422,
-            lng: 72.9740419
+            lat: 18.931191,
+            lng: 72.823173
         },
     },
     {
-        name: 'Dr. Kashinath Ghanekar Auditorium',
+        name: 'Trident Hotel',
         loc: {
-            lat: 19.2287016,
-            lng: 72.9703871
+            lat: 18.9279443,
+            lng: 72.8210286
         },
     },
     {
-        name: 'Chheda Super Market',
+        name: 'The Oberoi',
         loc: {
-            lat: 19.227121,
-            lng: 72.973975
+            lat: 18.926975,
+            lng: 72.8204516
         },
     },
     {
-        name: 'Dcrepes Cafe',
+        name: 'NCPA',
         loc: {
-            lat: 19.2264376,
-            lng: 72.9705868
+            lat: 18.9257526,
+            lng: 72.8190792
         },
     },
     {
-        name: 'Go Fitness Gym',
+        name: 'Starbucks',
         loc: {
-            lat: 19.2274078,
-            lng: 72.973715
+            lat: 18.9275348,
+            lng: 72.8220548
+        },
+    },
+    {
+        name: 'InterContinental',
+        loc: {
+            lat: 18.9350216,
+            lng: 72.8242804
+        },
+    },
+    {
+        name: 'Bombay High Court',
+        loc: {
+            lat: 18.930523,
+            lng: 72.8305364
         },
     }
 ];
-
 // This function helps in creating the locations
 function Location(data) {
     var self = this;
@@ -57,10 +70,10 @@ function myMap() {
 
     map = new google.maps.Map(document.getElementById('map'), {
         center: {
-            lat: 19.23,
-            lng: 72.97
+            lat: 18.93,
+            lng: 72.83
         },
-        zoom: 10,
+        zoom: 14,
     });
 
     var largeInfowindow = new google.maps.InfoWindow();
