@@ -13,6 +13,8 @@ Neighbourhood Map shows about the places to visit in my vicinity. It includes va
 
 1. Open the `index.html` file in the folder.
 
+2. And enter the location which you want to find or you can directly select the location from the available dropdown list
+
 ### APIs Used
 
 * [Foursquare API](https://foursquare.com/developers/register)
